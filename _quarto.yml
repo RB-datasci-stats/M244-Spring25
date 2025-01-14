@@ -3,12 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "docs"
+  title: "Intermediate Data Science"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - syllabus.qmd
+      - schedule.qmd
+      - notes.qmd
+      - assignments.qmd
 
 format:
   html:
