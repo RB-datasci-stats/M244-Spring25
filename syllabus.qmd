@@ -55,9 +55,9 @@ investigate and discuss the impact of data quality in and ethical
 implications of data science. As data science combines aspects of
 computer science and statistics, this course will be very quantitative
 in nature, with a heavy focus on the computational implementation of
-data science techniques such as machine learning. Students will get
-further practice with the R and Python programming languages. We will
-practice using Git for version control and coding collaboration.
+data science techniques such as machine learning. We will get further
+practice with the R and Python programming languages. We will also use
+Git for version control and coding collaboration.
 
 This is an intermediate course and therefore assumes some familiarity
 with coding and statistics. The prerequisite courses are MATH 240 and
@@ -254,8 +254,8 @@ many you earned at the end of the semester.
 
 ### Homework (25%)
 
-There will be five homework assignments that will generally be due on
-Thursdays at 11:59 PM. These problem sets will ask you to demonstrate
+There will be about five homework assignments that will generally be due
+on Thursdays at 11:59 PM. These problem sets will ask you to demonstrate
 and grow your conceptual understanding of data science. Homework will be
 submitted as pdfs on Gradescope and will be graded for correctness,
 neatness, and clarity.
