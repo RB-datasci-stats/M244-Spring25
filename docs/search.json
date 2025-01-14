@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Please note that this schedule is filterable and searchable."
+  },
+  {
     "objectID": "syllabus.html#texts",
     "href": "syllabus.html#texts",
     "title": "Syllabus",
@@ -25,7 +32,7 @@
     "href": "syllabus.html#assignments-and-evaluation",
     "title": "Syllabus",
     "section": "Assignments and Evaluation",
-    "text": "Assignments and Evaluation\n\nEngagement (5%)\nStatistics is best learned through doing! Please come to class ready to discuss and engage with the course material. You should keep a course notebook that contains materials from class along with notes you take from the textbook. Every Monday, you will submit a course check-in. This will be a Google form on what you learned in class last week. Specifically, it will ask you to:\n\nDescribe the main topic in your own words\nWrite down the most important thing that you learned.\nWrite two questions you have about the material.\n\nI expect you to attend class, be actively engaged, and ask questions—in class, during office hours, and on the course Slack—and to contribute towards answering the questions of others. If you are unable to attend class, please let me know in advance so we can make arrangements.\n\n\nExtra Credit Opportunity\nThroughout the course, you can earn up to a maximum of 12 extra credit points. Six of these points can be added to your lowest homework or essay score. The other six can be added to your project score. You can earn points through any of the following engagement activities:\n\n1 point for every question asked on the #questions Slack channel.\n1 point for every question answered on the #questions Slack channel.\n2 points for every math, statistics, or data science talk you attend.\n4 points for participating in DataFest (April 11-13)\n2 points for completing the course evaluation.\n\nYou will keep track of your own extra credit points and let me know how many you earned at the end of the semester.\n\n\nHomework (25%)\nThere will be five homework assignments that will generally be due on Thursdays at 11:59 PM. These problem sets will ask you to demonstrate and grow your conceptual understanding of data science. Homework will be submitted as pdfs on Gradescope and will be graded for correctness, neatness, and clarity.\nIn order to encourage the reading of feedback and growth/improvement, you will have the opportunity to revise and re-submit one problem once it has been graded.\n\n\nLabs (15%)\nThere will be labs roughly once a week. We will start lab assignments in class that will have you apply topics from that week. You will often work on a lab with your group. You may need to finish these labs outside of class. The lab assignment will be submitted as a pdf to Gradescope by 11:59 PM the following Monday. Note that every individual must submit a lab. Labs are graded on completion. In order to earn full completion points, you must answer each question with your best effort, and format it properly (e.g. if the question involved coding, the code should be presented in a code chunk). We will talk more about the format of labs as the semester progresses.\n\n\nShort Essays (15%)\nDuring the semester you will write several short essays. These will be graded for correctness, neatness, and clarity. You will complete most of these essays outside of class and one or two during class.\n\n\nProject (35%)\nThe class has a capstone final project for which students, working in groups, conduct and present an original data analysis on a dataset of your choice.\nThe aim of the project is for you to apply concepts and techniques we will cover in this course. You can use an existing dataset or collect your own data.\nYou will be able to form your own groups for the project. Please keep in mind that each group member will get the same grade on project components. When deciding on groups, I encourage you to think about the time commitments and motivations each person has for being in the class and working on the project. If you cannot form a group, I will put you in one.\nThe project consists of the following components (in parentheses is weight of that component’s grade in the overall project grade):\n\nProposal (5%)\nExploratory Data Analysis (7.5%)\nPeer Review of Preliminary Analysis (15%)\nPresentation (30%)\nReport (30%)\nTeam member evaluation (2.5%)\nGitHub Repo (10%)\n\nAt the end of the project, you will evaluate your own and your group members’ contribution to the project.\nMore information will be provided about the project and the individual components later in the semester."
+    "text": "Assignments and Evaluation\n\nEngagement (5%)\nStatistics is best learned through doing! Please come to class ready to discuss and engage with the course material. You should keep a course notebook that contains materials from class along with notes you take from the textbook. Every Monday, you will submit a course check-in. This will be a Google form on what you learned in class last week. Specifically, it will ask you to:\n\nDescribe the main topic in your own words\nWrite down the most important thing that you learned.\nWrite two questions you have about the material.\n\nI expect you to attend class, be actively engaged, and ask questions—in class, during office hours, and on the course Slack—and to contribute towards answering the questions of others. If you are unable to attend class, please let me know in advance so we can make arrangements.\n\n\nExtra Credit Opportunity\nThroughout the course, you can earn up to a maximum of 12 extra credit points. Six of these points can be added to your lowest homework or essay score. The other six can be added to your project score. You can earn points through any of the following engagement activities:\n\n1 point for every question asked on the #questions Slack channel.\n1 point for every question answered on the #questions Slack channel.\n2 points for every math, statistics, or data science talk you attend.\n4 points for participating in DataFest (April 11-13)\n2 points for completing the course evaluation.\n\nYou will keep track of your own extra credit points and let me know how many you earned at the end of the semester.\n\n\nHomework (25%)\nThere will be about five homework assignments that will generally be due on Thursdays at 11:59 PM. These problem sets will ask you to demonstrate and grow your conceptual understanding of data science. Homework will be submitted as pdfs on Gradescope and will be graded for correctness, neatness, and clarity.\nIn order to encourage the reading of feedback and growth/improvement, you will have the opportunity to revise and re-submit one problem once it has been graded.\n\n\nLabs (15%)\nThere will be labs roughly once a week. We will start lab assignments in class that will have you apply topics from that week. You will often work on a lab with your group. You may need to finish these labs outside of class. The lab assignment will be submitted as a pdf to Gradescope by 11:59 PM the following Monday. Note that every individual must submit a lab. Labs are graded on completion. In order to earn full completion points, you must answer each question with your best effort, and format it properly (e.g. if the question involved coding, the code should be presented in a code chunk). We will talk more about the format of labs as the semester progresses.\n\n\nShort Essays (15%)\nDuring the semester you will write several short essays. These will be graded for correctness, neatness, and clarity. You will complete most of these essays outside of class and one or two during class.\n\n\nProject (35%)\nThe class has a capstone final project for which students, working in groups, conduct and present an original data analysis on a dataset of your choice.\nThe aim of the project is for you to apply concepts and techniques we will cover in this course. You can use an existing dataset or collect your own data.\nYou will be able to form your own groups for the project. Please keep in mind that each group member will get the same grade on project components. When deciding on groups, I encourage you to think about the time commitments and motivations each person has for being in the class and working on the project. If you cannot form a group, I will put you in one.\nThe project consists of the following components (in parentheses is weight of that component’s grade in the overall project grade):\n\nProposal (5%)\nExploratory Data Analysis (7.5%)\nPeer Review of Preliminary Analysis (15%)\nPresentation (30%)\nReport (30%)\nTeam member evaluation (2.5%)\nGitHub Repo (10%)\n\nAt the end of the project, you will evaluate your own and your group members’ contribution to the project.\nMore information will be provided about the project and the individual components later in the semester."
   },
   {
     "objectID": "syllabus.html#grade-breakdown",
@@ -89,5 +96,54 @@
     "title": "MATH 244: Intermediate Data Science",
     "section": "",
     "text": "Welcome! This website contains the relevant course information."
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Files for the homework can be accessed at this Google drive folder. Please note that you must have a vassar email in order to access this folder."
+  },
+  {
+    "objectID": "assignments.html#homework",
+    "href": "assignments.html#homework",
+    "title": "Assignments",
+    "section": "",
+    "text": "Files for the homework can be accessed at this Google drive folder. Please note that you must have a vassar email in order to access this folder."
+  },
+  {
+    "objectID": "assignments.html#essays",
+    "href": "assignments.html#essays",
+    "title": "Assignments",
+    "section": "Essays",
+    "text": "Essays\nTBA"
+  },
+  {
+    "objectID": "assignments.html#project",
+    "href": "assignments.html#project",
+    "title": "Assignments",
+    "section": "Project",
+    "text": "Project\nTBA"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Lectures and class handouts can be accessed at this Google drive folder. Please note that you must have a vassar email in order to access this folder."
+  },
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Lectures and class handouts can be accessed at this Google drive folder. Please note that you must have a vassar email in order to access this folder."
+  },
+  {
+    "objectID": "math_cmpu280_S24_schedule.html",
+    "href": "math_cmpu280_S24_schedule.html",
+    "title": "MATH 244: Intermediate Data Science Searchable Schedule",
+    "section": "",
+    "text": "Please note that this schedule is filterable and searchable."
   }
 ]
