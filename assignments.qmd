@@ -1,0 +1,29 @@
+---
+title: "Assignments"
+subtitle: "Spring 2025"
+format: 
+  html:
+    page-layout: full
+    theme: cosmo
+    toc: true
+    toc-title: "Contents"
+    embed-resources: true
+    standalone: true
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Homework
+
+Files for the homework can be accessed at this Google drive folder.
+Please note that you must have a vassar email in order to access this
+folder.
+
+## Essays
+
+TBA
+
+## Project
+
+TBA

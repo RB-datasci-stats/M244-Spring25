@@ -1,0 +1,41 @@
+---
+title: "Schedule"
+subtitle: "Spring 2025"
+format: 
+  html:
+    page-layout: full
+    theme: cosmo
+    toc: false
+    toc-title: "Contents"
+    embed-resources: true
+    standalone: true
+---
+
+Please note that this schedule is filterable and searchable.
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(DT)
+library(tidyverse)
+
+schedule <- readxl::read_xlsx("planning244_s25.xlsx",
+                              sheet = 1)
+schedule <- schedule %>% 
+  mutate(`Things to Cover` = NULL,
+         Date = format(Date, format = "%a %b %d"),
+         Date = if_else(is.na(Date), 
+                        "TBD - During Study Week",
+                        Date),
+         Type = as.factor(Type),
+         Theme = factor(Theme, 
+                        levels = unique(Theme)))
+
+datatable(schedule,
+          options = list(pageLength = nrow(schedule)),
+          rownames = FALSE,
+          filter = "top",
+          escape = FALSE)
+```

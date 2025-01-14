@@ -1,0 +1,459 @@
+---
+title: "Syllabus"
+subtitle: "Spring 2025"
+format: 
+  html:
+    page-layout: full
+    theme: cosmo
+    toc: true
+    toc-title: "Contents"
+    embed-resources: true
+    standalone: true
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+<hr size="5">
+
+# Key Information at a Glance:
+
++----------------+-------------------------+
+| **Classroom**  | Rockefeller Hall 307    |
++----------------+-------------------------+
+| **Times**      | T/R 3:10--4:25pm        |
++----------------+-------------------------+
+| **Instructor** | Robin Belton            |
++----------------+-------------------------+
+| **Instructor   | rbelton\@vassar.edu     |
+| Email**        |                         |
++----------------+-------------------------+
+| **Instructor   | Rockefeller Hall 401-A  |
+| Office**       |                         |
++----------------+-------------------------+
+| **Office       | -   Monday/Wednesday:   |
+| Hours**        |     2-3 PM              |
+|                |                         |
+|                | -   Thursday: 9-10 AM   |
+|                |                         |
+|                | -   By appointment\     |
+|                |     (please don't       |
+|                |     hesitate to ask     |
+|                |     about different     |
+|                |     times!)             |
++----------------+-------------------------+
+| **Textbook**   | Introduction to         |
+|                | Statistical Learning:\  |
+|                | with Applications in    |
+|                | Python\                 |
+|                | (2nd Edition)           |
++----------------+-------------------------+
+
+In this course, we will refine and expand data wrangling, data
+visualization, and modeling skills. Additionally, we will continue to
+investigate and discuss the impact of data quality in and ethical
+implications of data science. As data science combines aspects of
+computer science and statistics, this course will be very quantitative
+in nature, with a heavy focus on the computational implementation of
+data science techniques such as machine learning. Students will get
+further practice with the R and Python programming languages. We will
+practice using Git for version control and coding collaboration.
+
+This is an intermediate course and therefore assumes some familiarity
+with coding and statistics. The prerequisite courses are MATH 240 and
+CMPU 100. You are not expected to have an advanced understanding of
+statistics and machine learning -- we will focus more on the
+implementation and intuition behind intermediate data science
+techniques. If you have taken any machine learning courses, this class
+may be a bit too elementary for you. If you are not comfortable with R
+and Python, you may find this class somewhat difficult. Please feel free
+to come chat with me about it if you are unsure!
+
+<hr size="5">
+
+# Course Structure
+
+This class is a mix of lectures and in-class activities. Most in-class
+activities will consist of working through labs or tutorials in R or
+Python in groups. After the add-drop period ends, I will put you into
+groups. You will be in these groups for in-class activities for two
+weeks. Then groups will be re-assigned. The purpose behind this is for
+you to meet and work with everyone in the class.
+
+Please plan to bring a laptop every class with R and Python installed so
+that we can make the most out of class time. If you do not have access
+to a laptop, please let me know so we can make alternate arrangements.
+
+## Texts {#texts}
+
+We will use the following textbook:
+
+-   [Introduction to Statistical Learning: with Applications in
+    Python](https://www.statlearning.com/) by James, Witten, Hastie,
+    Tibshirani, and Taylor (ISLP in Schedule). We will use this book for
+    learning about core topics in machine learning.
+
+Please note that there is a version of this book called *Introduction to
+Statistical Learning: with Applications in R*, which is the same book
+conceptually but with labs in R instead of Python. As we will be using
+Python for the machine learning components, I suggest that you download
+the Python version.
+
+Please note that the pdf version of this textbook is free! There is no
+need to purchase a hard copy unless you want to.
+
+For other topics, there will be readings posted to Moodle and linked in
+the schedule.
+
+## Software
+
+There are software requirements for the course. I ***highly recommend***
+installing RStudio, R, Python, and Git to your personal computer. This
+is a very useful skill. However, I do not want this to be an obstacle
+for learning class material. Accessing these software through a server
+and web browser is also acceptable. See below for more details on each
+one.
+
+### R
+
+We will use R and RStudio throughout this course. You may access both of
+these resources on the Vassar College server:
+
+-   For on campus: <http://rstudio.vassar.edu/>
+
+-   Unfortunately, you cannot access the server off campus.
+
+Alternatively (and recommended), you can download and install `R` on
+your computer at <http://cran.r-project.org/>, as well as RStudio which
+is available at <https://posit.co/download/rstudio-desktop/>. Please
+follow the instructions for downloading both here:
+<https://moderndive.netlify.app/1-getting-started.html#installing>
+(although note that since RStudio has become Posit, the steps for
+installing RStudio may be slightly different).
+
+#### Reading More About R
+
+If you want to brush up on your R skills, [*R for Data Science
+(2e)*](https://r4ds.hadley.nz/) by Hadley Wickham, Mine
+Çetinkaya-Rundel, and Garrett Grolemund is an excellent introduction to
+the `tidyverse` approach to R programming.
+
+If you are interested in R as a programming language, feel free to check
+out Hadley Wickham's[^1] excellent *Advanced R*. You can access its
+contents for free online here: <https://adv-r.hadley.nz/>.
+
+[^1]: Hadley Wickham is a statistician, the creator of the `ggplot2`
+    package and the tidyverse, and Chief Scientist at RStudio. He's from
+    New Zealand, hence the .nz in the links here and above.
+
+### Python
+
+We will be using Python for the machine learning components of the
+course. You should also install Python and Jupyter Notebook on your
+computer. There are many ways to do this. One way is to install the
+`Anaconda` distribution of Python; it collects a wide array of useful
+packages, libraries, and applications that make it possible to use
+Python on your own computer. You can install from
+<https://www.anaconda.com/products/distribution>. See
+<https://docs.anaconda.com/anaconda/install/index.html> for helpful
+instructions for different platforms.
+
+#### Reading More About Python
+
+There are many books written about Python. A good place to start is this
+[link](https://towardsdatascience.com/5-free-books-for-learning-python-for-data-science-87be443c084),
+which collects a list of 5 free books on learning Python.
+
+In particular, [Python for Everybody](https://www.py4e.com/html3/) by
+Charles R. Severance is a great resource for those learning to use
+Python for data science, and [A Whirlwind Tour of
+Python](https://jakevdp.github.io/WhirlwindTourOfPython/index.html) by
+Jake VanderPlas is a great introduction to Python in general; it serves
+as a necessary prerequisite to his [Python Data Science
+Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/).
+
+### Git
+
+You also need to install Git. Please follow the instructions at this
+link to do so:
+<http://rafalab.dfci.harvard.edu/dsbook/accessing-the-terminal-and-installing-git.html>.
+A helpful resource for using Git is the [ProGit online
+book](https://git-scm.com/book/en/v2).
+
+You will also need to make a Github account, if you have not done so.
+Please see here for instructions:
+<https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account>.
+We will use Github Classroom (look for a sign-up link in the first week
+of class) to make using Git a bit easier.
+
+We will set-up Git together during the first lab so there is no need to
+do it before then.
+
+## Course Communication
+
+All course materials---including slides, worksheets, assignments, and
+other course resources---will be posted on the class Moodle. The Moodle
+page will either direct you to this course website or to the Google
+drive that contains the raw files you might want to download. Course
+communication will otherwise occur via our M 244 Slack workspace. In
+particular, I ask that you please not email me with course-related
+questions, but rather post these questions in the appropriate Slack
+channel. If discretion is needed, please feel free to direct message me
+on Slack.
+
+*During the week, I will try my best to answer all Slack messages within
+24 hours of receiving them. However, if you message me over the weekend
+or holidays, I may not respond to your message until classes resume in
+an effort to maintain my own work-life balance. Please plan
+accordingly.*
+
+## Assignments and Evaluation
+
+### Engagement (5%)
+
+Statistics is best learned through doing! Please come to class ready to
+discuss and engage with the course material. You should keep a *course
+notebook* that contains materials from class along with notes you take
+from the textbook. Every Monday, you will submit a *course check-in*.
+This will be a Google form on what you learned in class last week.
+Specifically, it will ask you to:
+
+1.  Describe the main topic in your own words
+
+2.  Write down the most important thing that you learned.
+
+3.  Write two questions you have about the material.
+
+I expect you to attend class, be actively engaged, and ask
+questions---in class, during office hours, and on the course Slack---and
+to contribute towards answering the questions of others. If you are
+unable to attend class, please let me know in advance so we can make
+arrangements.
+
+### Extra Credit Opportunity
+
+Throughout the course, you can earn up to a maximum of 12 extra credit
+points. Six of these points can be added to your lowest homework or
+essay score. The other six can be added to your project score. You can
+earn points through any of the following engagement activities:
+
+-   1 point for every question asked on the `#questions` Slack channel.
+
+-   1 point for every question answered on the `#questions` Slack
+    channel.
+
+-   2 points for every math, statistics, or data science talk you
+    attend.
+
+-   4 points for participating in DataFest (April 11-13)
+
+-   2 points for completing the course evaluation.
+
+You will keep track of your own extra credit points and let me know how
+many you earned at the end of the semester.
+
+### Homework (25%)
+
+There will be five homework assignments that will generally be due on
+Thursdays at 11:59 PM. These problem sets will ask you to demonstrate
+and grow your conceptual understanding of data science. Homework will be
+submitted as pdfs on Gradescope and will be graded for correctness,
+neatness, and clarity.
+
+In order to encourage the reading of feedback and growth/improvement,
+you will have the opportunity to revise and re-submit *one* problem once
+it has been graded.
+
+### Labs (15%)
+
+There will be labs roughly once a week. We will start lab assignments in
+class that will have you apply topics from that week. You will often
+work on a lab with your group. You may need to finish these labs outside
+of class. The lab assignment will be submitted as a pdf to Gradescope by
+11:59 PM the following Monday. Note that every individual must submit a
+lab. Labs are graded on completion. In order to earn full completion
+points, you must answer each question with your best effort, and format
+it properly (e.g. if the question involved coding, the code should be
+presented in a code chunk). We will talk more about the format of labs
+as the semester progresses.
+
+### Short Essays (15%)
+
+During the semester you will write several short essays. These will be
+graded for correctness, neatness, and clarity. You will complete most of
+these essays outside of class and one or two during class.
+
+### Project (35%)
+
+The class has a capstone final project for which students, working in
+groups, conduct and present an original data analysis on a dataset of
+your choice.
+
+The aim of the project is for you to apply concepts and techniques we
+will cover in this course. You can use an existing dataset or collect
+your own data.
+
+You will be able to form your own groups for the project. Please keep in
+mind that each group member will get the same grade on project
+components. When deciding on groups, I encourage you to think about the
+time commitments and motivations each person has for being in the class
+and working on the project. If you cannot form a group, I will put you
+in one.
+
+The project consists of the following components (in parentheses is
+weight of that component's grade in the overall project grade):
+
+1.  Proposal (5%)
+2.  Exploratory Data Analysis (7.5%)
+3.  Peer Review of Preliminary Analysis (15%)
+4.  Presentation (30%)
+5.  Report (30%)
+6.  Team member evaluation (2.5%)
+7.  GitHub Repo (10%)
+
+At the end of the project, you will evaluate your own and your group
+members' contribution to the project.
+
+More information will be provided about the project and the individual
+components later in the semester.
+
+## Grade Breakdown
+
+Final grades will be weighted as follows:
+
+|              |     |
+|--------------|-----|
+| Engagement   | 5%  |
+| Homework     | 25% |
+| Labs         | 20% |
+| Short Essays | 15% |
+| Project      | 35% |
+
+I will use the following grading scale:
+
+-   A: 100-92; A-: \< 92-90
+-   B+: \< 90-87; B: \< 87-82; B-: \< 82-80
+-   C+ \< 80-77; C: \< 77-72; C-: \< 72-70
+-   D+: \< 70-67; D: \< 67-60
+-   F: \< 60
+
+Due to the extra credit opportunity, **I will not do any rounding.**
+
+# Class Policies
+
+## Class Norms
+
+I expect that we all hold ourselves to the following five standards:
+
+1.  Treat others with the dignity and respect you would like to receive.
+
+2.  Embrace productive struggle and making mistakes, and have grace for
+    the mistakes of others.
+
+3.  Ask questions to deepen your understanding, and ask for help when
+    you need it.
+
+4.  Participate to the best of your ability.
+
+5.  Prioritize your health and well-being.
+
+## Collaboration {#latework}
+
+Data science is in many ways a team sport! I strongly encourage you to
+form study groups and to work together to complete your homework and lab
+assignments. However, I also ask that you take ownership over your work
+in this course. Collaborating involves sharing ideas and/or working on
+the problem solving aspects together, and then writing up answers or
+code *individually.* If the code or work that you turn in is modeled
+after something you found online or received help on by a peer, please
+cite this source. We will talk more about collaboration and academic
+integrity throughout the course.
+
+## Generative AI
+
+Generative AI such as ChatGPT can be a powerful tool for helping you to
+write and debug code. With this new form of technology, we are still
+learning the pros and cons of its use. If you use generative AI on an
+assignment, please acknowledge this and write a sentence or two on your
+interactions and how useful you found it. This will help us all better
+understand its pros and cons.
+
+Please be aware that generative AI is designed to mimic human language -
+not to output the truth. You should always double check if the output
+from generative AI makes sense. Furthermore, be careful to not rely on
+generative AI too heavily. After all, generative AI is not necessary for
+successfully completing this course.
+
+# Resources for Students
+
+## Q-Center Peer Support Services
+
+This course fulfills the quantitative analysis (QA) requirement for
+graduation. All Vassar students have access to free, drop-in,
+peer-to-peer quantitative tutoring at the Quantitative Reasoning Center
+(Q-Center). Quantitative tutors (Q-Tutors) excel in a variety of STEM
+courses. They are typically available Sunday-Thursday 3pm-11pm while
+classes are in session. Q-Tutors who specialize in Mathematics and
+Physics are located in the Main Library, Room 122 behind the Writing
+Center. Q-Tutors who specialize in Chemistry and Economics are located
+in the Main Library, Room 88 near Special Collections. If you have a
+quantitative question beyond these four disciplines, Q-Tutors are
+available to attempt to help you with this question or will help direct
+you to someone else who may be better able to help. Schedules and other
+important information can be found at
+<https://offices.vassar.edu/ltrc/qrc/>.
+
+## Academic Accomodations
+
+Academic accommodations are available for students registered with the
+[Office for Accessibility and Educational
+Opportunity](https://offices.vassar.edu/accessibility-and-educational-opportunity/)
+(AEO). Students in need of disability (ADA/504) accommodations should
+schedule an appointment with me early in the semester to discuss any
+accommodations for this course that have been approved by the Office for
+Accessibility and Educational Opportunity, as indicated in your AEO
+accommodation letter.
+
+## Title IX Resources
+
+Vassar College is committed to providing a safe learning environment for
+all students that is free of all forms of discrimination and sexual
+harassment, including sexual assault, domestic violence, dating
+violence, and stalking. If you (or someone you know) has experienced or
+experiences any of these incidents, know that you are not alone. Vassar
+College has staff members trained to support you in navigating campus
+life, accessing health and counseling services, providing academic and
+housing accommodations, helping with legal protective orders, and more.
+
+Please be aware all Vassar faculty members are "responsible employees,"
+which means that if you tell me about a situation involving sexual
+harassment, sexual assault, dating violence, domestic violence, or
+stalking, I must share that information with the Title IX Coordinator.
+Although I have to make that notification, you will control how your
+case will be handled, including whether or not you wish to pursue a
+formal complaint. Our goal is to make sure you are aware of the range of
+options available to you and have access to the resources you need.
+
+If you wish to speak to someone privately, you can contact any of the
+following on-campus resources:
+
+-   Counseling Service
+    ([counselingservice.vassar.edu](https://counselingservice.vassar.edu),
+    845-437-5700)
+-   Health Service
+    ([healthservice.vassar.edu](https://healthservice.vassar.edu),
+    845-437-5800)
+-   Rachel Gellert, SAVP (Support, Advocacy, and Violence Prevention)
+    director, 845-437-7863)
+-   SAVP advocate, available 24/7 by calling the CRC at 845-437-7333
+
+The SAVP website ([savp.vassar.edu](https://savp.vassar.edu) and the
+Title IX section of the EOAA website
+([eoaa.vassar.edu/title-ix/](https://eoaa.vassar.edu/title-ix/)) have
+more information, as well as links to both on- and off-campus resources.
+
+##### *Acknowledgement:* 
+
+The content and structure of this syllabus is modeled after related
+syllabi from Drs. Simon Hoellerbauer (University of Massachusetts at
+Amherst) and Ming-Wen An (Vassar College).
